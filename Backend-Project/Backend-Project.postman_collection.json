@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "15f3c34e-2813-444b-90ce-d6caa4fa291a",
+		"name": "Backend-Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29223162"
+	},
+	"item": [
+		{
+			"name": "AAPL Ticker",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ZS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/ticker/ZS?column=revenue,gp&period=5y",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"ticker",
+						"ZS"
+					],
+					"query": [
+						{
+							"key": "column",
+							"value": "revenue,gp"
+						},
+						{
+							"key": "period",
+							"value": "5y"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
